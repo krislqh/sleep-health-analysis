@@ -21,8 +21,8 @@ Title: Sleep Health and Lifestyle Dataset
 - June 1: Set up repository (DONE)
 - June 9: Write queries for exploratory analysis (DONE)
 - June 10-23: Conduct data quality checks, analysis for sleep health and sleep quality (DONE)
-- June 24-30: Tableau dashboard
-- June 31: Finalise project README
+- June 24-30: Tableau dashboard (DONE)
+- Start of July: Finalise project README
 
 # 2. Key Findings
 (TBC)
