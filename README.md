@@ -1,28 +1,16 @@
 # Sleep Health and Lifestyle Analysis
 
-# 1. Project Overview
-Title: Sleep Health and Lifestyle Dataset
-(Sourced from Kaggle)
+## 1. Project Overview
+(context and goals)
 
-## Dataset information
-- Demographics (Gender, Age, Occupation)
-- Sleep metrics (Sleep Duration, Quality of Sleep)
-- Health indicators (Physical Activity Level, Stress Level,
-  BMI Category, Blood Pressure, Heart Rate, Daily Steps)
-- Sleep disorders
+## 2. Dataset Structure and Quality Checks
+(show screenshot of each variable with corresponding data type, mention missing/inconsistent data)
 
-## Tools used
-- SQLite
-- DB Browser for SQLite
-- Tableau Public
-- GitHub
+## 3. Executive Summary
+(overview of findings, dashboard screenshot)
 
-## Timeline
-- June 1: Set up repository (DONE)
-- June 9: Write queries for exploratory analysis (DONE)
-- June 10-23: Conduct data quality checks, analysis for sleep health and sleep quality (DONE)
-- June 24-30: Tableau dashboard (DONE)
-- Start of July: Finalise project README
+## 4. Insights Deep Dive
+(narrowing down of narrative into key findings)
 
-# 2. Key Findings
+## 5. Possible Improvements/Interventions
 (TBC)
