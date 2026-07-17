@@ -10,7 +10,9 @@ This project explores the relationships between sleep health indicators, demogra
 ### Title: Sleep Health and Lifestyle Dataset (Sourced from Kaggle)
 This dataset contains a row count of 374 records. The columns provide details on demographics, sleep metrics, health indicators and sleep disorder status for each observation corresponding to a unique identifier.
 
-![Variables](images/variables.png)
+<p align="center">
+<img src="images/variables.png", alt="Variables", width="25%">
+</p>
 
 ### Data Validation
 1. The dataset contains two BMI categories labelled “Normal”/”Normal Weight” despite the dataset description indicating an “Underweight” category. Given that no numerical values for weight, height for BMI were provided, the categories have been preserved to avoid making unsupported assumptions. 
@@ -41,41 +43,47 @@ The SQL queries used for data analysis can be found [here](sql/analysis_queries.
 
 Below is a screenshot of the Tableau Public dashboard built based on the key findings stated. The entire interactive dashboard can be viewed [here](https://public.tableau.com/views/SleepHealthOverview_17823057861110/Dashboard1?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link).
 
-![Dashboard Overview](images/dashboard.png)
+<p align="center">
+<img src="images/dashboard.png", alt="Dashboard Overview", width="100%">
+</p>
 
 ## 5. Insights Deep Dive
 ### 5.1 Insomnia and Overall Sleep Health
 
-![Insomnia Sleep Duration](images/insomnia_sleepduration.png)
-![Insomnia Sleep Quality](images/insomnia_sleepquality.png)
+<p align="center">
+<img src="images/insomnia_sleepduration.png", width="46%">
+<img src="images/insomnia_sleepquality.png", width="24.75%">
+</p>
 
 - (observation) Individuals diagnosed with insomnia report the shortest sleep durations and lowest sleep quality on average relative to individuals with sleep apnea or without sleep disorders.
 - (interpretation) This observation suggests that insomnia is associated with both reduced sleep duration and poorer quality of sleep. It can also be inferred that sleep duration is a key contributing factor to measuring sleep quality. However, it is important to note that considering sleep duration alone is insufficient to determine sleep quality.
-- (implications)
 
 ### 5.2 Stress Levels on Sleep Quality
 
-![Sleep Quality by Stress Level](images/stresslevel_sleepquality.png)
+<p align="center">
+<img src="images/stresslevel_sleepquality.png", alt="Sleep Quality by Stress Level", width="25%">
+</p> 
 
 - (observation) Sleep quality generally falls as stress levels increase, indicating a negative relationship between stress levels and sleep quality. 
 - (interpretation) This consistently decreasing trend suggests that stress may be an important factor associated with overall sleep health. 
-- (implications)
 
 ### 5.3 BMI and Sleep Disorders
 
-![Sleep Disorder by BMI](images/sleepdisorder_bmi.png)
+<p align="center">
+<img src="images/sleepdisorder_bmi.png", alt="Sleep Disorder by BMI", width="25%">
+</p>
 
 - (observation) Overweight and obese individuals generally exhibit a substantially higher prevalence of sleep disorders. Additionally, in the Overweight and Obese categories, there is a slightly higher proportion of people with sleep apnea than with insomnia.
 - (interpretation) This suggests that having a higher BMI is a possible contributing factor to the development of sleep apnea, albeit not the only factor.
-- (implications)
 
 ### 5.4 Sleep Apnea and Reported Quality of Sleep
 
-![Sleep Quality by Sleep Disorder (filtered for Overweight and Obese)](images/sleepapnea_bmi.png)
+<p align="center">
+<img src="images/sleepapnea_bmi.png", alt="Sleep Quality by Sleep Disorder (filtered for Overweight and Obese)", width="25%">
+</p>
 
 - (observation) Among the Overweight and Obese BMI categories, individuals with sleep apnea appear to have a higher reported sleep quality than those with insomnia or without diagnosed sleep disorders in the same BMI categories. 
 - (interpretation) This is an unexpected finding that should be interpreted with caution. As the dataset is synthetic and only includes self-reported sleep quality, the available variables are insufficient to fully explain this observation. The data does not include additional clinical indicators (blood oxygen saturation and time spent in non-REM and REM stages of sleep) which would provide a more comprehensive assessment of sleep quality. 
-- (implications)
 
 
 ## 6. Caveats and Assumptions
